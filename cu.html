@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="General.css">
+    <script src="common.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <style>
+        footer{
+            position: absolute;
+            top:100vh;
+            width: 100%;
+            left: 0;
+        }
+    </style> -->
+</head>
+
+<!-- <body style="background-image: linear-gradient(45deg,rgb(2, 238, 2),cyan,rgb(0, 157, 255)); min-height: 100vh;" class="gback"> -->
+    <body class="gback">
+    <div class="nav" style="background-color: black;">
+        <div class="mini-cont"><div class="mini-logo"> <a href="index.html"> kkk</a> </div></div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sbg.html"> Search by Gene</a></li>
+            <li><a href="sbc.html"> Search by  cell-type</a></li>
+            <li class="active"><a href="cu.html">Contact Us</a></li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" id="bar"viewBox="0 -960 960 960" width="24px" fill="#e8eaed" onclick=showSidebar()><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </div>
+
+    <div class="cont-cont">
+        <form action="https://api.web3forms.com/submit" method="POST" class="cont-left">
+            <div class="cont-left-title">
+                <h2 style="color: rgb(255, 234, 0);">Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <input type="text" name="name" placeholder="Your Name" class="cont-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="cont-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="cont-inputs" required></textarea>
+            <button type="submit">Submit <img src="arrow.jpg" alt=""></button>
+        </form>
+        <div class="cont-right" style="visibility: hidden;">
+            <img src="cont_pic.img" alt="">
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-x"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cu.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <p>Copyright &copy; 2024; Designed by <span class="designer"> University of </span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
