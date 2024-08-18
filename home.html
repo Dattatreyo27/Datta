@@ -52,26 +52,27 @@
 
 For single-cell RNAseq studies, cell-type averages are shown (full datasets including details of methods are available here).</p>
     <hr>
-    <h1>What are the effects of climate change so far?</h1>
+    <h1>What are the effects?</h1>
     <p>
-        The global average temperature increase of 1.2C seen in the past decade might not sound much.
+        Methods: Siletti et al 2023
 
-        However, it has had a huge effect on the environment, including:
-    <ul>
-        <li>more frequent and intense extreme weather, such as heatwaves and heavy rainfall</li>
+Cell-types: All
 
-        <li>rapid melting of glaciers and ice sheets, contributing to sea-level rise</li>
+Brain regions: Whole brain
 
-        <li>huge declines in Arctic sea-ice</li>
+Techniques: Human postmortem tissue acquired from donors with no known history of neuropsychiatric or neurological conditions were considered for inclusion in the study. Single cell RNAseq with 10x Chromium. 3,369,219 from 105 dissections.Cells assigned to 31 superclusters, 461 clusters, and finally 3313 subclusters. Expression per cluster is displayed in BrainPalmSeq heatmap.
 
-        <li>ocean warming</li>
-    </ul>
-    People's lives are also changing.
+Age of donors: Male and female donors 18 to 68 years of age
 
-    For example, parts of East Africa suffered their worst drought in 40 years, putting more than 20 million people at
-    risk of severe hunger.
+Data processing for BrainPalmSeq: Single-cell counts were downloaded from cellxgene, and log normalized by first scaling the expression values provided to a sum of 10,000 per cell before calculating log2(scaled_counts+1). Averages were then performed by cell type taxonomy for each gene. Genes associated with palmitoylation were selected in order to create the heatmaps.
 
-    In 2022, intense European heatwaves led to an abnormal increase in deaths.
+Heatmap units: mean log2(counts per 10,000 + 1)
+
+References: Kimberly Siletti et al., Transcriptomic diversity of cell types across the adult human brain. Science382,eadd7046(2023). DOI:10.1126/science.add7046
+
+Website: N/A
+
+Original data availability: https://cellxgene.cziscience.com/collections/283d65eb-dd53-496d-adb7-7570c7caa443
     </p>
     <!-- <button class="go">
        <a href="Causes.html"> Next</a>
