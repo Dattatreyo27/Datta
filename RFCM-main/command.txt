@@ -1,0 +1,20 @@
+1:If you haven't installed Anaconda on your system, please download and install it.
+
+2:Now open a terminal and execute the following command :
+	conda create -n RFCM-PALM python=3.8
+	conda activate RFCM-PALM
+	conda install -c conda-forge biopython numpy joblib scikit-learn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+3: Download the Zip file and Unzip the folder :(RFCM-PALM-main)
+4: Open a terminal, activate the env and enter into the folder by the following command
+   (Assuming  the folder is in Download the the command is as follows:)
+    conda activate RFCM-PALM
+    cd Download/RFCM-PALM-main/Source
+
+Now copy your input fasta file(say : myinput.fasta) in the folder : "RFCM-PALM-main/InputFile/myinput.fasta" 
+
+5: Now run the script:
+     python RFCM_PALM.py myinput.fasta Male
+After the successful execution the output will store in the "RFCM-PALM-main/Output" folder
+

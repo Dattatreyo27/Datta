@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">RFCM-PALM-WEBSERVER</h1>
+    <h3>Upload File</h3>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="data" />
+      <label for="sex">Choose a sex:</label>
+      <select name="sex" id="sex">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Combined">Combined</option>
+      </select>
+      <button type="submit">Upload</button>
+    </form>
+    <br /><br />
+    <form action="/text" method="post">
+      <input type="text" name="PID" />
+      <label for="sex">Choose a sex:</label>
+      <select name="sex" id="sex">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Combined">Combined</option>
+      </select>
+      <button type="submit">submit</button>
+    </form>
+
+    <br>
+    <br>
+    <h4>Upload file should be named PID_List.txt</h4>
+  </body>
+</html>
